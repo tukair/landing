@@ -56,31 +56,43 @@
             .features {
                 flex-direction: row;
             }
-        }
-        .ig-container {
-       position: absolute;
-       top: 20px;
-       left: 20px;
-          }
+        } 
+        .header-bar {
+              padding: 20px;
+              background: #161b22;
+         }
 
-      .ig-container img {
-       width: 64px;
-       height: 64px;
-       border-radius: 50%;
-       object-fit: cover;
-        }
+        .logo-title {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            justify-content: center;
+         }
+
+         .logo-title img {
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                object-fit: cover;
+}
+
+            
+        
     </style>
     
 </head>
 <body>
-    <header>
-        <h1>TechBoost</h1>
-        <p>Soluciones inteligentes con IA para tu negocio</p>
+    <header class="header-bar">
+      <div class="logo-title">
+        <img src="ig.png" alt="logo TechBoost"/>
+        <div>
+          <h1>TechBoost</h1>
+          <p>Soluciones inteligentes con IA para tu negocio</p>
+        </div>
+      </div>
+        
     </header>
 
-    <div class="ig-container">
-      <img src="ig.png" alt="Logo TechBoost" />
-    </div>
 
     <section class="hero">
         <h2>Haz crecer tu empresa con tecnología moderna</h2>
