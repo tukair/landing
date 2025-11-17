@@ -57,7 +57,20 @@
                 flex-direction: row;
             }
         }
+        .share-icon {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .share-icon img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
     </style>
+    
 </head>
 <body>
     <header>
@@ -72,7 +85,9 @@
             <button class="btn">Contáctame</button>
         </a>
     </section>
-
+       <div class="share-icon">
+         <img src="ig.png" alt="icon" />
+       </div>
     <section class="features">
         <div class="card">
             <h3>Automatización</h3>
@@ -93,3 +108,4 @@
     </footer>
 </body>
 </html>
+
